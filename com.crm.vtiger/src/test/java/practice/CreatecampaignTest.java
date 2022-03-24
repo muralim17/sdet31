@@ -7,11 +7,15 @@ public class CreatecampaignTest {
 public void createcampaign()
 {
 	System.out.println("campaign created successfully");
+	System.out.println("user 1 created the organization");
+	System.out.println("user 2 created organization");
 }
 
 @Test
 public void createsony()
 {
 	System.out.println("sony created successfully");
+	
+	System.out.println("user 3:-compgin updated ");
 }
 }
