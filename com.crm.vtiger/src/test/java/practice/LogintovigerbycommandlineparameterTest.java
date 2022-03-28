@@ -39,7 +39,7 @@ public void logintovtiger()
 	
 	driver.get(url);
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 driver.findElement(By.name("user_name")).sendKeys(username);
 driver.findElement(By.name("user_password")).sendKeys(password);
 	driver.findElement(By.id("submitButton")).click();
