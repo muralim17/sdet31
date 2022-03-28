@@ -1,6 +1,6 @@
 
 public class Loginbycommandlineparameter {
-	@Test
+
 	public void logintovtiger()
 	{
 		browsername=System.getProperty("browser");
